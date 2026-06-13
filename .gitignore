@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# PyCharm IDE settings
+.idea/
+*.iml
+
+# Data files (large or sensitive)
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Model files (large, can be regenerated)
+models/
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
